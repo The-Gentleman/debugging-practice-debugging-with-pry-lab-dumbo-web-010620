@@ -15,5 +15,5 @@ turtle_counter = 0
    p result = turtles[turtle_counter][:traits]
    turtle_counter += 1 
   end 
-result
+p result
 end
