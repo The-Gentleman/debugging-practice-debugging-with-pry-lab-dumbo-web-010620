@@ -12,7 +12,7 @@ def turtle_traits(turtles)
 turtle_counter = 0 
 
   while turtle_counter < turtles.count do 
-   result = turtles[turtle_counter][:traits]
+   p result = turtles[turtle_counter][:traits]
    turtle_counter += 1 
   end 
 result
