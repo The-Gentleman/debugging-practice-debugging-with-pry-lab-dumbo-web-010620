@@ -13,7 +13,7 @@ end
 def greet_crew (crew)
   crew.each {|crew_member| "Hello #{crew_member}."}
 end
-# [1, 2, 3].each { |n| puts "Current number is: #{n}" }
+
 def engage
   date = generate_star_date
   state_log(date)
