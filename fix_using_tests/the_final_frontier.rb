@@ -13,8 +13,7 @@ end
 
 def greet_crew (crew)
   # binding.pry
-  crew.each do |crew_member|
-   puts crew.push("Hello #{crew_member}.")
+  crew.each do {|crew_member|"Hello #{crew_member}."}
   end 
 end
 # [1, 2, 3].each do |n|
