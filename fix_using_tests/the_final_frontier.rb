@@ -15,8 +15,6 @@ def greet_crew (crew)
 end
 # [1, 2, 3].each { |n| puts "Current number is: #{n}" }
 def engage
-  binding.pry
-
   date = generate_star_date
   state_log(date)
   greet_crew(crew)
