@@ -12,7 +12,7 @@ end
 
 def greet_crew (crew)
  crew.each do |crew_member| 
-   puts "Hello #{crew_member}."
+    "Hello #{crew_member}."
  end 
 end
 
