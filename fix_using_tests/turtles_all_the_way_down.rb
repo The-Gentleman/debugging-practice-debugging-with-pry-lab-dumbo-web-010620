@@ -15,5 +15,5 @@ turtle_counter = 0
    p turtles[turtle_counter][:traits]
    turtle_counter += 1 
   end 
-turtle_counter
+
 end
