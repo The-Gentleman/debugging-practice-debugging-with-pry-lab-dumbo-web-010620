@@ -11,4 +11,9 @@ end
 def turtle_traits(turtles)
 counter = 0 
 
+  while counter < turtles.count do 
+   p turtles[counter][:traits]
+   counter += 1 
+  end 
+
 end
